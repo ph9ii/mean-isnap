@@ -13,7 +13,7 @@ const mongoose = require('mongoose');
 const app = express();
 
 mongoose.connect(
-	"mongodb+srv://mo:"+ process.env.MONGO_ATLAS_PW +"@cluster0-m5uy7.mongodb.net/mean-app?retryWrites=true"
+	"mongodb+srv://mo:"+ process.env.MONGO_ATLAS_PW +"@cluster0-m5uy7.mongodb.net/mean-app"
 	)
 	.then(() => {
 		console.log('Connected to database!');
