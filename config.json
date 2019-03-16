@@ -1,0 +1,7 @@
+{
+    "secret": "sercret_my_life_till_ert_0933end_23984752221633784_dsd0_2332323",
+    "refreshTokenSecret": "sercret_my_life_till_end2939_23984752221633784_dsd0_2332323",
+    "port": 3000,
+    "tokenLife": 900,
+    "refreshTokenLife": 86400
+}
